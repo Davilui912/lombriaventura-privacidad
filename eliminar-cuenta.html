@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solicitar eliminación de cuenta - Lombriaventura</title>
+    <title>Solicitar eliminación de datos - Lombriaventura</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,6 +15,10 @@
         }
         h1 {
             color: #2e7d32;
+        }
+        h2 {
+            color: #2e7d32;
+            margin-top: 30px;
         }
         .card {
             background: #f9f9f9;
@@ -36,54 +40,136 @@
         .steps li {
             margin-bottom: 8px;
         }
+        .app-name {
+            font-weight: bold;
+            color: #2e7d32;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        .retention {
+            background: #e3f2fd;
+            padding: 16px 24px;
+            border-radius: 8px;
+            margin: 16px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+            color: #666;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 6px;
+        }
     </style>
 </head>
 <body>
 
-    <h1>Solicitar eliminación de cuenta</h1>
-    <p>En Lombriaventura, respetamos tu privacidad. Si deseas eliminar tu cuenta y todos los datos asociados, sigue las instrucciones a continuación.</p>
+    <h1>Solicitar eliminación de datos - Lombriaventura</h1>
 
+    <p>
+        Esta página te explica cómo solicitar la eliminación de tus datos personales en 
+        <strong class="app-name">Lombriaventura</strong>, la aplicación educativa de lombricomposta 
+        para niños.
+    </p>
+
+    <!-- ==================== PASOS ==================== -->
     <div class="card">
-        <h2>Envíanos un correo electrónico</h2>
-        <p>Para solicitar la eliminación de tu cuenta, envía un correo a:</p>
+        <h2>Paso 1: Envíanos un correo electrónico</h2>
+        <p>Para solicitar la eliminación de tus datos, envía un correo a:</p>
         <p class="email">lombriaventura@gmail.com</p>
-        <p>Con el asunto: <strong>"Solicitud de eliminación de cuenta"</strong></p>
+        <p>Con el asunto: <strong>"Solicitud de eliminación de datos"</strong></p>
     </div>
 
     <div class="steps">
-        <h3>Información que debes incluir en el correo:</h3>
+        <h3>Paso 2: Información que debes incluir en el correo:</h3>
         <ul>
-            <li><strong>Nombre de usuario:</strong> El nombre que usas para iniciar sesión</li>
+            <li><strong>Nombre de usuario:</strong> El nombre que usas para iniciar sesión en Lombriaventura</li>
             <li><strong>Correo electrónico:</strong> El correo asociado a tu cuenta</li>
-            <li><strong>Motivo:</strong> (opcional) Puedes indicar por qué deseas eliminar tu cuenta</li>
+            <li><strong>Datos que deseas eliminar:</strong> Especifica si quieres eliminar todos tus datos o solo algunos (ej. fotos del diario, notas, etc.)</li>
         </ul>
     </div>
+
+    <!-- ==================== QUÉ DATOS SE ELIMINAN ==================== -->
+    <h2>Tipos de datos que se eliminan</h2>
 
     <div class="card">
-        <h3>¿Qué pasa después?</h3>
+        <h3>Datos que se eliminan completamente:</h3>
         <ul>
-            <li> Recibirás una confirmación de que hemos recibido tu solicitud</li>
-            <li> Procesaremos la eliminación en un plazo máximo de <strong>7 días hábiles</strong></li>
-            <li>Te notificaremos cuando tu cuenta haya sido eliminada</li>
+            <li><strong>Nombre de usuario</strong> — Identificador único de tu cuenta</li>
+            <li><strong>Nombre completo</strong> — El nombre que proporcionaste al registrarte</li>
+            <li><strong>Edad</strong> — La edad que proporcionaste al registrarte</li>
+            <li><strong>Ciudad</strong> — La ciudad que proporcionaste al registrarte</li>
+            <li><strong>Correo electrónico</strong> — El correo asociado a tu cuenta</li>
+            <li><strong>Fotos del diario "Mi Composta"</strong> — Todas las fotos que subiste al diario</li>
+            <li><strong>Notas del diario</strong> — Todas las notas que escribiste en el diario</li>
+            <li><strong>Progreso y logros</strong> — Puntuaciones, monedas y logros obtenidos</li>
+            <li><strong>Historial de ventas</strong> — Registro de ventas de lombrices, humus, etc.</li>
+            <li><strong>Registro de actividad</strong> — Días activos y racha</li>
         </ul>
     </div>
+
+    <!-- ==================== DATOS QUE SE CONSERVAN ==================== -->
+    <div class="card" style="border-left-color: #f57c00;">
+        <h3>Datos que se conservan (por obligación legal):</h3>
+        <ul>
+            <li><strong>Registros financieros</strong> — Por obligaciones fiscales (si aplica)</li>
+            <li><strong>Registros de seguridad</strong> — Para prevenir fraudes o actividades maliciosas</li>
+            <li><strong>Datos anonimizados</strong> — Datos que ya no pueden vincularse a tu identidad</li>
+        </ul>
+        <p style="font-size: 14px; color: #666; margin-top: 8px;">
+            Estos datos se conservan solo para cumplir con obligaciones legales y se eliminan 
+            cuando ya no son necesarios.
+        </p>
+    </div>
+
+    <!-- ==================== PERIODOS DE RETENCIÓN ==================== -->
+    <h2>Períodos de retención de datos</h2>
+
+    <div class="retention">
+        <ul>
+            <li><strong>Datos de usuario (cuenta):</strong> Se conservan mientras la cuenta esté activa. Al solicitar la eliminación, se eliminan en <strong>7 días hábiles</strong>.</li>
+            <li><strong>Fotos y notas del diario:</strong> Se conservan hasta que el usuario las elimine o solicite la eliminación de su cuenta.</li>
+            <li><strong>Registros de seguridad:</strong> Se conservan hasta <strong>90 días</strong> después de la eliminación de la cuenta por razones de seguridad y prevención de fraude.</li>
+            <li><strong>Datos anonimizados:</strong> Pueden conservarse indefinidamente para fines estadísticos y de análisis, pero no contienen información personal identificable.</li>
+        </ul>
+    </div>
+
+    <!-- ==================== PROCESO ==================== -->
+    <h2>Paso 3: ¿Qué pasa después de enviar la solicitud?</h2>
 
     <div class="card">
-        <h3>¿Qué datos se eliminan?</h3>
         <ul>
-            <li>Nombre de usuario</li>
-            <li>Nombre completo</li>
-            <li>Edad</li>
-            <li>Ciudad</li>
-            <li>Correo electrónico</li>
-            <li>Fotos del diario "Mi Composta"</li>
-            <li>Progreso y logros</li>
+            <li>Recibirás una confirmación de que hemos recibido tu solicitud en un plazo de <strong>48 horas</strong></li>
+            <li>Procesaremos la eliminación en un plazo máximo de <strong>7 días hábiles</strong></li>
+            <li>Te notificaremos cuando tus datos hayan sido eliminados</li>
+            <li>Si solo solicitaste eliminar algunos datos (ej. fotos), solo se eliminarán esos datos</li>
         </ul>
     </div>
 
-    <p style="margin-top: 30px; font-size: 14px; color: #666;">
-        <strong>Lombriaventura</strong> · Tu privacidad es nuestra prioridad.
-    </p>
+    <!-- ==================== CONTACTO ==================== -->
+    <h2>Contacto</h2>
+    <p>Si tienes alguna pregunta sobre este proceso, puedes contactarnos:</p>
+    <ul>
+        <li><strong>Correo electrónico:</strong> <a href="mailto:lombriaventura@gmail.com">lombriaventura@gmail.com</a></li>
+    </ul>
+
+    <!-- ==================== FOOTER ==================== -->
+    <div class="footer">
+        <p>
+            <strong>Lombriaventura</strong> · Tu privacidad es nuestra prioridad.
+        </p>
+        <p style="font-size: 12px;">
+            Última actualización: 15 de julio de 2026
+        </p>
+    </div>
 
 </body>
 </html>
